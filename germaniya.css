@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenr {
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cards {
+    background-color: hsla(208, 22%, 21%, 1);
+    height: 80px;
+
+}
+
+.card {
+    display: flex;
+    margin-left: 81px;
+    display: flex;
+    align-items: center;
+    gap: 900px;
+    padding-top: 23px;
+    color: white;
+}
+
+.text1 button {
+    /* Rectangle */
+    position: absolute;
+    width: 136px;
+    height: 40px;
+    border-radius: 6px;
+    display: flex;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.174);
+    background: rgb(43, 56, 68);
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.text1 p {
+    color: white;
+    margin-top: 10px;
+}
+
+.text1 img {
+    margin-top: 7px;
+    margin-left: 30px;
+}
+
+.div {
+    background-color: rgb(43, 56, 68);
+    width: 1440px;
+    height: 1000px;
+}
+
+.div2 img {
+    width: 560px;
+    height: 401px;
+}
+
+.div3 a {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+.div3 p {
+    color: white;
+    margin-left: 100px;
+}
+
+.div5 p {
+    color: white;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+.div4 {
+    display: flex;
+}
+
+.div1 {
+    display: flex;
+    padding-top: 200px;
+    margin-left: 60px;
+}
+
+.teg1 h3 {
+    color: white;
+}
+
+.teg2 {
+    /* Rectangle */
+    /* position: absolute; */
+    width: 96px;
+    height: 28px;
+    border-radius: 2px;
+    color: white;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
+    background: rgb(43, 56, 68);
+}
+
+.teg1 {
+    display: flex;
+    gap: 10px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.teg {
+    display: flex;
+    gap: 10px;
+}
+
+.teg4 {
+    display: flex;
+    margin-top: 35px;
+    gap: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .contenr {
+        width: 375px;
+        margin-right: auto;
+        margin-left: auto;
+        height: 1000px;
+    }
+
+    .div {
+        width: 375px;
+        margin-right: auto;
+        margin-left: auto;
+        height: 1000px;
+    }
+
+    .div2 img {
+        width: 320px;
+        height: 229px;
+    }
+
+    .div1 {
+        display: flex;
+        flex-direction: column;
+    }
+.div5{
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+/* Media query for screens with a width between 601 and 768 pixels */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .test {
+        font-size: 35px;
+    }
+}
+
+/* Media query for screens with a width between 769 and 1024 pixels */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .test {
+        font-size: 40px;
+    }
+}
+
+/* Media query for screens with a width between 1025 and 1200 pixels */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .test {
+        font-size: 45px;
+    }
+}
+
+/* Media query for screens with a minimum width of 1201 pixels */
+@media screen and (min-width: 1201px) {}

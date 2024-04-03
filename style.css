@@ -60,6 +60,11 @@ input {
     margin-left: 80px;
     margin-top: 48px;
 }
+.div0 a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;  
+}
 
 .div1 img {
     width: 264px;
